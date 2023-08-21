@@ -4,6 +4,8 @@ This repository contains a comprehensive project that develops a predictive mode
 
 Additionally, this project utilizes deep learning through the use of TensorFlow.
 
+*Project is made in April 2022 and published in August 2023.
+
 **Aim of the Project:**
 The aim of this study is to conduct explanatory data analysis on the data set and build a predictive model that will predict the success measure of a game. Moreover, it is intended to use additional unstructured data like text and images to develop an overall usage of whole data and exercise the application of NLP and computer vision tasks.
 
@@ -21,7 +23,7 @@ Data contains information about games that were scraped from Google Play Store. 
 | Description          | Description of the game |
 | Updated              | Last update date |
 | Size                 | Size of the game (MB) |
-| Installs             | Total installs up to current day (not continuous) |
+| Installs             | Total installs up to a current day (not continuous) |
 | Current Version      | Current version of the game |
 | Requires Android     | Required min Android version |
 | Content Rating	     | Targeted audience |
@@ -31,3 +33,16 @@ Data contains information about games that were scraped from Google Play Store. 
 
 **Success measure (Target Variable):**
 Instead of taking **Rating** or **Installs** as one target variable a combination of those two variables is created. Rating is multiplied by a log base of 10 Installs. Log base 10 is taken because there is an excessive gap between the Installs and the range of those two measures needs to be nearly the same.
+
+--------------------------------------------------------------------------------------------------------
+
+# Walkthrough
+
+[data/scrape/scraper.ipynb]
+1) Data is scraped from [https://play.google.com/] by using BeautifulSoup module ().
+**Find the scraper in **
+3) Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. I made comment at every stage so the operations can be interpreted.
+4) Also 
+5) 
+Everytime and operation 
+
