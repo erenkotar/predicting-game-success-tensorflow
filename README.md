@@ -7,7 +7,7 @@ Inline-style:
 ![alt text]([data/GPLogo.png](https://raw.githubusercontent.com/erenkotar/predicting-game-success-using-deep-learning/main/data/GPLogo.png) "Google Play Logo")
 This repository contains a comprehensive project that develops a predictive model capable of forecasting mobile games' success based on the data scraped from Google Play Store.
 
-![Screenshot](data\GPLogo.png)
+![Screenshot](data/GPLogo.png)
 
 
 
