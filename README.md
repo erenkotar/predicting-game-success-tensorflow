@@ -4,7 +4,7 @@ Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Inline-style:
-![alt text]([data/GPLogo.png](https://github.com/erenkotar/predicting-game-success-using-deep-learning/blob/main/data/GPLogo.png) "Google Play Logo")
+![alt text]([data/GPLogo.png](https://github.com/erenkotar/predicting-game-success-using-deep-learning/tree/master/data/GPLogo.png) "Google Play Logo")
 This repository contains a comprehensive project that develops a predictive model capable of forecasting mobile games' success based on the data scraped from Google Play Store.
 
 Additionally, this project utilizes deep learning through the use of TensorFlow.
