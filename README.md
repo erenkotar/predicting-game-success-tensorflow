@@ -1,4 +1,9 @@
 # Predicting mobile games' success using deep learning
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
 ![alt text](https://github.com/erenkotar/predicting-game-success-using-deep-learning/data/GPLogo.png "Google Play Logo")
 This repository contains a comprehensive project that develops a predictive model capable of forecasting mobile games' success based on the data scraped from Google Play Store.
 
