@@ -1,4 +1,4 @@
-![image](https://github.com/erenkotar/predicting-game-success-using-deep-learning/assets/79402527/ec4b5ba1-3ef1-48bb-88e6-bd92b721ae58)# Predicting mobile games' success using deep learning
+# Predicting mobile games' success using deep learning
 
 This repository contains a comprehensive project that develops a predictive model capable of forecasting mobile games' success based on the data scraped from Google Play Store.
 
