@@ -12,6 +12,10 @@ The aim of this study is to conduct explanatory data analysis on the data set an
 **Data Summary:**
 Data contains information about games that were scraped from Google Play Store. It contains different types of data like numerical, categorical (nominal & ordinal), text, and image. The folder that contains the image is in data/icon_png.
 
+⋅⋅* Find raw data at **data/data.csv**
+⋅⋅* Find raw data at **data/data_pp.csv**
+
+
 **Data Description:**
 | Column Name          | Description |
 | -----------          | ----------- |
@@ -38,11 +42,15 @@ Instead of taking **Rating** or **Installs** as one target variable a combinatio
 
 # Walkthrough
 
-[data/scrape/scraper.ipynb]
-1) Data is scraped from [https://play.google.com/] by using BeautifulSoup module ().
-**Find the scraper in **
-3) Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. I made comment at every stage so the operations can be interpreted.
-4) Also 
-5) 
-Everytime and operation 
+In every Jupyter Notebook file, operations and motivations are explained in detail.
+
+⋅⋅* Find the scraper at **data/scrape/0. Scraper.ipynb**
+1) Data is scraped from [https://play.google.com/] by using the BeautifulSoup module.
+⋅⋅* Find the preprocessing and explanatory data analysis steps at **1. Preprocess EDA.ipynb**
+2) Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. 
+3) Also preprocessed data are visualised and some of the features' descriptive statistics are observed to gain insights.
+⋅⋅* Find the NLP MODEL at **2.1. NLP_Model.ipynb**
+4) A predictive model is created based on textual features **Name** and **Description**.
+⋅⋅* Find the Final Models at **2.1. Final Models.ipynb**
+6) Different predictive models are created in that Jupyter Notebook.
 
