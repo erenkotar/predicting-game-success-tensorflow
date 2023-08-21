@@ -30,4 +30,4 @@ Data contains information about games that were scraped from Google Play Store. 
 | In-app Products      | Premium services within the app |
 
 **Success measure (Target Variable)**
-Instead of taking Rating or Installs as one target variable a combination of those two variables is created. Rating is multiplied by a log base of 10 Installs. Log base 10 is taken because there is an excessive gap between the Installs and the range of those two measures needs to be nearly the same.
+Instead of taking **Rating** or **Installs** as one target variable a combination of those two variables is created. Rating is multiplied by a log base of 10 Installs. Log base 10 is taken because there is an excessive gap between the Installs and the range of those two measures needs to be nearly the same.
