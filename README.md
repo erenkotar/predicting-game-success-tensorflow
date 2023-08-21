@@ -21,9 +21,9 @@ Data contains information about games that were scraped from Google Play Store. 
 | Description          | Description of the game |
 | Updated              | Last update date |
 | Size                 | Size of the game (MB) |
-| Installs             | Current version the game |
+| Installs             | Total installs up to current day (not continuous) |
 | Current Version      | Current version of the game |
-| Requires Android     | Required Andorid Version |
+| Requires Android     | Required min Android version |
 | Content Rating	     | Targeted audience |
 | Offered By	         | Developer of the game |
 | Interactive Elements | Additional feature of the game|
