@@ -47,13 +47,14 @@ Instead of taking **Rating** or **Installs** as one target variable a combinatio
 In every Jupyter Notebook file, operations and motivations are explained in detail.
 
 1. Find the scraper at **data/scrape/0. Scraper.ipynb**
-* * Data is scraped from [Google Play Official Website](https://play.google.com/) by using the BeautifulSoup module.
+* Data is scraped from [Google Play Official Website](https://play.google.com/) by using the BeautifulSoup module.
 2. Find the preprocessing and explanatory data analysis steps at **1. Preprocess EDA.ipynb**
-2.1. Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. 
-2.2. Also preprocessed data are visualized and some of the features' descriptive statistics are observed to gain insights.
+* Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. 
+* Also preprocessed data are visualized and some of the features' descriptive statistics are observed to gain insights.
 3. Find the NLP MODEL at **2.1. NLP_Model.ipynb**
 (this notebook's author is my good fellow Ahmet Arif Turkmen who has excellent skills in NLP)
+* Embeddings of descriptions are trained over the target.
 4. A predictive model is created based on textual features **Name** and **Description**.
-4.1. Find the Final Models at **2.1. Final Models.ipynb**
+* Find the Final Models at **2.1. Final Models.ipynb**
 5. Different predictive models are created in that Jupyter Notebook.
 
