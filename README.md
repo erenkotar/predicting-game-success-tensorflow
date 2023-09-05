@@ -1,4 +1,4 @@
-# Predicting mobile games' success using deep learning 
+# Predicting mobile games' success using deep learning <br/><br/>
 
 ![Screenshot](data/GPLogo.png "Google Play Logo")
 
