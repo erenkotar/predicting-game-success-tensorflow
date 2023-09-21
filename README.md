@@ -46,7 +46,7 @@ Instead of taking **Rating** or **Installs** as one target variable a combinatio
 
 In every Jupyter Notebook file, operations and motivations are explained in detail.
 
-1. Find the scraper at **data/scrape/1. Scraper.ipynb**
+1. Find the scraper at **1. Scraper.ipynb**
 * Data is scraped from [Google Play Official Website](https://play.google.com/) by using the BeautifulSoup module.
 2. Find the preprocessing and explanatory data analysis steps at **2. Preprocess EDA.ipynb**
 * Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. 
