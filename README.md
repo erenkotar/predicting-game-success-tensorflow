@@ -54,5 +54,6 @@ In every Jupyter Notebook file, operations and motivations are explained in deta
 * Text data is preprocessed, normalized, tokenized, and then trained on LSTM and Dense layers. Trained model is saved to be used in next Notebook.
 
 (The original author of this notebook is my good fellow Ahmet Arif Turkmen who has excellent skills in NLP. However, I altered the architecture of the model that enables pre-training on the text with Descriptions and used the embedding of a pre-trained model in the training of Feed Forward Neural Network with tabular features which ended up increasing the model's performance)
+
 4. Find the Final Models at **3.2. Final Models.ipynb**
 * With benchmarks of different algorithms like KNN and Random Forrest, neural network models are trained and evaluated in the same training-test sets.
