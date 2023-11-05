@@ -1,19 +1,18 @@
 # Predicting mobile games' success using deep learning <br/><br/> ![Screenshot](data/GPLogo.png "Google Play Logo")
 
+This repository contains a comprehensive project that develops a predictive model capable of predicting mobile games' success based on the data scraped from Google Play Store.
 
-This repository contains a comprehensive project that develops a predictive model capable of forecasting mobile games' success based on the data scraped from Google Play Store.
-
-Additionally, this project utilizes deep learning through the use of TensorFlow.
-
-* Project is made in April 2022 and published in August 2023.
+* The project was made in April 2022 and published in August 2023.
 
 **Aim of the Project:**
-The aim of this study is to conduct explanatory data analysis on the data set and build a predictive model that will predict the success measure of a game. Moreover, it is intended to use additional unstructured data like text and images to develop an overall usage of whole data and exercise the application of NLP and computer vision tasks.
+The aim of this study is to preprocess near real-life data, conduct explanatory data analysis on the data set, and build a predictive model that will predict the success measure of a mobile game. 
+
+Moreover, acknowledging the fact that much simpler models may be used for data that is mostly tabular and has a low amount of instances to learn deep representations, it is intended to use additional unstructured data like text and images to gain hands-on experience in implementing various neural network architectures via TensorFlow.
 
 **Data Summary:**
 Data contains information about games that were scraped from Google Play Store. It contains different types of data like numerical, categorical (nominal & ordinal), text, and image.
 
-* Find raw data at **data/data.csv**
+* Find raw data at **data/data_raw.csv**
 * Find preprocessed data at **data/data_pp.csv**
 * Find image data at **data/icon_png**
 
@@ -38,7 +37,7 @@ Data contains information about games that were scraped from Google Play Store. 
 | In-app Products      | Premium services within the app |
 
 **Success measure (Target Variable):**
-Instead of taking **Rating** or **Installs** as one target variable a combination of those two variables is created. Rating is multiplied by a log base of 10 Installs. Log base 10 is taken because there is an excessive gap between the Installs and the range of those two measures needs to be nearly the same.
+Instead of taking **Rating** or **Installs** as one target variable a combination of those two variables is created. Rating is multiplied by a log base of 10 Installs. Log base 10 is taken because there is an excessive gap between the Installs and the range of those two measures needs to be close.
 
 ---
 
@@ -52,9 +51,7 @@ In every Jupyter Notebook file, operations and motivations are explained in deta
 * Since there are many HTML elements, data is preprocessed and manipulated before feeding it to models. 
 * Also preprocessed data are visualized and some of the features' descriptive statistics are observed to gain insights.
 3. Find the NLP MODEL at **3.1. NLP_Model.ipynb**
-(this notebook's author is my good fellow Ahmet Arif Turkmen who has excellent skills in NLP)
-* Embeddings of descriptions are trained over the target.
-4. A predictive model is created based on textual features **Name** and **Description**.
-* Find the Final Models at **3.2. Final Models.ipynb**
-5. Different predictive models are created in that Jupyter Notebook.
-
+*Text data is preprocessed, normalized, tokenized, and then trained on LSTM and Dense layers. Trained model is saved to be used in next Notebook.
+(The original author of this notebook is my good fellow Ahmet Arif Turkmen who has excellent skills in NLP. However, I altered the architecture of the model that enables pre-training on the text with Descriptions and used the embedding of a pre-trained model in the training of Feed Forward Neural Network with tabular features which ended up increasing the model's performance)
+4. Find the Final Models at **3.2. Final Models.ipynb**
+* With benchmarks of different algorithms like KNN and Random Forrest, neural network models are trained and evaluated in the same training-test sets.
