@@ -1,3 +1,6 @@
 models/
 notebooks/3.2. Final Models wImage.ipynb
 .DS_Store
+data/lstm_results_test.csv
+data/lstm_results_train.csv
+data/webp_to_jpg_converter.ipynb
